@@ -51,12 +51,12 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'taro/如何参与大型开源项目-Taro 共建',
             position: 'left',
-            label: 'Tutorial',
+            label: '博客',
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/jiaozitang/blog',
             label: 'GitHub',
             position: 'right',
           },

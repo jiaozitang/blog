@@ -51,7 +51,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'taro/如何参与大型开源项目-Taro 共建',
+            docId: 'Taro/如何参与大型开源项目-Taro 共建',
             position: 'left',
             label: '博客',
           },

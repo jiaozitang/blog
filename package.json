@@ -1,0 +1,21 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "博客",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "git add . && git commit -m 'blog' && git push origin master"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiaozitang/blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jiaozitang/blog/issues"
+  },
+  "homepage": "https://github.com/jiaozitang/blog#readme"
+}

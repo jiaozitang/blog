@@ -16,7 +16,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
+            to="/docs/Taro/如何参与大型开源项目-Taro 共建">
             Docusaurus Tutorial - 5min ⏱️
           </Link>
         </div>

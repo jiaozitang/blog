@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[195],{2841:function(e,t,n){n.r(t),n.d(t,{default:function(){return c}});var i=n(7294),o=n(2263),r=n(7019);function c(){var e=(0,o.Z)().siteConfig;return i.createElement(r.Z,{title:"Hello from "+e.title,description:"Description will go into a meta tag in <head />"},"sdk")}}}]);

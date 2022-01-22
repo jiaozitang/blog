@@ -1,21 +1,36 @@
 {
   "name": "blog",
-  "version": "1.0.0",
-  "description": "博客",
-  "main": "index.js",
+  "author": "jiaozi",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "git add . && git commit -m 'blog' && git push origin master"
+    "docusaurus": "docusaurus",
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "swizzle": "docusaurus swizzle",
+    "deploy": "docusaurus deploy",
+    "clear": "docusaurus clear",
+    "serve": "docusaurus serve",
+    "write-translations": "docusaurus write-translations",
+    "write-heading-ids": "docusaurus write-heading-ids"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jiaozitang/blog.git"
+  "dependencies": {
+    "@docusaurus/core": "2.0.0-beta.14",
+    "@docusaurus/preset-classic": "2.0.0-beta.14",
+    "@mdx-js/react": "^1.6.21",
+    "clsx": "^1.1.1",
+    "prism-react-renderer": "^1.2.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jiaozitang/blog/issues"
-  },
-  "homepage": "https://github.com/jiaozitang/blog#readme"
+  "browserslist": {
+    "production": [
+      ">0.5%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }

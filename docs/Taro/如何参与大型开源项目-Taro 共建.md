@@ -10,7 +10,7 @@
 
 其实不然，在我们开发日常需求时就可以参与到开源项目中来，开发时用到的技术栈，就是我们最值得入手的开源项目了。
 
-像我自己日常有开发微信小程序、京东小程序等跨平台的需求，这类型需求主要技术栈是 [Taro](https://github.com/NervJS/taro)，[Taro](https://github.com/NervJS/taro) 本身就是 github star 近 30 k 的优秀开源项目了，那么我就可以从 Taro 着手，参与到开源项目的建设工作中。
+像我自己日常有开发微信小程序、京东小程序等跨平台的需求，这类型需求主要技术栈是 [Taro](https://github.com/NervJS/taro)，[Taro](https://github.com/NervJS/taro) 本身就是 github star 近 30k 的优秀开源项目了，那么我就可以从 Taro 着手，参与到开源项目的建设工作中。
 
 ![image.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8a28ef429b4047ea838208d14143f1f5~tplv-k3u1fbpfcp-watermark.image?)
 

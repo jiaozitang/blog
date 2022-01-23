@@ -22,7 +22,7 @@
 
 贡献形式多种多样，下面我以 **“提交代码”** 类型快速开始贡献流程。
 
-![s17110101222022](http://r5szzqele.hn-bkt.clouddn.com/tj-blog/s17110101222022.png)
+![s17110101222022](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b01d363357f24181835ac08d43196231~tplv-k3u1fbpfcp-zoom-1.image)
 
 ### 2. 找到感兴趣的 issue
 
@@ -30,17 +30,17 @@
 
 通过 issue 标签筛选，选择自己感兴趣的 issue，可以先从 **"Easy"** 的开始：
 
-![s17454801222022](http://r5szzqele.hn-bkt.clouddn.com/tj-blog/s17454801222022.png)
+![s17454801222022](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/70b054166ff542e7be25584fde5f6de8~tplv-k3u1fbpfcp-zoom-1.image)
 
 在 issue 中 Assignees 至自己：
 
-![s17463701222022](http://r5szzqele.hn-bkt.clouddn.com/tj-blog/s17463701222022.png)
+![s17463701222022](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0f1b088680d34783ac2712106b77cf4e~tplv-k3u1fbpfcp-zoom-1.image)
 
 ### 3. fork & clone
 
 fork Taro 源码至自己仓库：
 
-![s17280901222022](http://r5szzqele.hn-bkt.clouddn.com/tj-blog/s17280901222022.png)
+![s17280901222022](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/7d23dd5050964d1ea3aa0b2f75c1d0c9~tplv-k3u1fbpfcp-zoom-1.image)
 
 clone 个人仓库的 Taro 源码：
 
@@ -132,13 +132,13 @@ $ npm run test
 
 测试通过后，在 github 中提交 pull requrst。
 
-![s18260601222022](http://r5szzqele.hn-bkt.clouddn.com/tj-blog/s18260601222022.png)
+![s18260601222022](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/711361ce7a3b4e8bb21920c717693e6e~tplv-k3u1fbpfcp-zoom-1.image)
 
 ### 7. code review 流程
 
 提交 pull request 后等待社区 code review，并及时跟进 code review 反馈进行修改。
 
-![s18232101222022](http://r5szzqele.hn-bkt.clouddn.com/tj-blog/s18232101222022.png)
+![s18232101222022](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f2d99299182145aa8a3166a2e7579034~tplv-k3u1fbpfcp-zoom-1.image)
 
 ## 四、总结
 

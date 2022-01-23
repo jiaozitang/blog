@@ -15,7 +15,7 @@ const config = {
   favicon: 'img/favicon.ico',
   organizationName: 'jiaozitang', // Usually your GitHub org/user name.
   projectName: 'jiaozitang.github.io', // Usually your repo name.
-  deploymentBranch: 'deploy',
+  deploymentBranch: 'main',
 
   presets: [
     [

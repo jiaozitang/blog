@@ -1,3 +1,5 @@
+![](https://img12.360buyimg.com/ling/jfs/t1/96463/39/20942/268881/61ee05a4Eadf9afcb/cbcda37e2be5aae0.jpg)
+
 ## 一、背景
 
 在开发的工作中，我们都引用过大量的社区优秀的开源项目，但怎么才能更好的了解这些开源项目呢，答案是 **Join it**。

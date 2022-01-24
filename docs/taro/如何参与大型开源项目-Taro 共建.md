@@ -138,7 +138,7 @@ $ npm run test
 
 提交 pull request 后等待社区 code review，并及时跟进 code review 反馈进行修改。
 
-![s09142901242022](http://r5szzqele.hn-bkt.clouddn.com/tj-blog/s09142901242022.png)
+![s09142901242022](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/3ddab0a662824ad78e63b9ee2232d7c3~tplv-k3u1fbpfcp-zoom-1.image)
 
 ## 四、总结
 

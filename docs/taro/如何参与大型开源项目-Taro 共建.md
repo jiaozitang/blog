@@ -42,7 +42,7 @@ fork Taro 源码至自己仓库：
 
 ![s17280901222022](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/7d23dd5050964d1ea3aa0b2f75c1d0c9~tplv-k3u1fbpfcp-zoom-1.image)
 
-clone 个人仓库的 Taro 源码：
+clone 个人仓库的 Taro 源码至本地：
 
 ```
 git clone https://github.com/jiaozitang/taro
@@ -83,14 +83,14 @@ $ npm install -g @tarojs/cli
 $ taro init myApp
 
 # yarn link
-$ yarn link "@tarojs/components
+$ yarn link "@tarojs/components"
 ```
 
 ### 5. 开始开发
 
 #### 5.1 功能开发
 
-通过以下步骤解决上述 **”textarea 组件 onLineChange 时间调用无效“** issue：
+通过以下步骤解决上述 **[“textarea 组件 onLineChange 时间调用无效”](https://github.com/NervJS/taro/issues/8003)** issue：
 
 > 源码路径：packages/taro-components/src/components/textarea/textarea.tsx
 
@@ -100,7 +100,7 @@ onLineChange 事件：
 - 监听输入事件，输入时通过行高计算行数
 - 行数改变时触发 onLineChange
 
-auto-height 属性
+auto-height 属性：
 
 - 新增 auto-height 属性
 - 新增 auto-height 样式
@@ -109,7 +109,7 @@ auto-height 属性
 
 #### 5.2 更新测试用例
 
-在测试用例中添加对 onLineChange 事件的测试。
+在测试用例中添加对 onLineChange 事件、aotu-height 属性的测试。
 
 > 源码路径：packages/taro-components/\_\_tests\_\_/textarea.spec.js
 
@@ -121,7 +121,7 @@ auto-height 属性
 
 #### 5.4 自测
 
-在 myApp 项目中，体验 onLineChange 事件、auto-height 属性功能是否正常，体验通过后，在 Taro 源码项目中跑自动化测试。
+在本地测试项目 myApp 中，自测 onLineChange 事件、auto-height 属性功能是否正常，自测通过后，在 Taro 源码项目中跑自动化测试。
 
 ```
 # 自动化测试
@@ -138,7 +138,7 @@ $ npm run test
 
 提交 pull request 后等待社区 code review，并及时跟进 code review 反馈进行修改。
 
-![s18232101222022](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f2d99299182145aa8a3166a2e7579034~tplv-k3u1fbpfcp-zoom-1.image)
+![s09142901242022](http://r5szzqele.hn-bkt.clouddn.com/tj-blog/s09142901242022.png)
 
 ## 四、总结
 

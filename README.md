@@ -35,7 +35,7 @@ $ USE_SSH=true yarn deploy
 Not using SSH:
 
 ```
-$ GIT_USER=jiaozitang GIT_PASS=your_personal_token yarn deploy
+$ GIT_USER=jiaozitang GIT_PASS= yarn deploy
 ```
 
 If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.

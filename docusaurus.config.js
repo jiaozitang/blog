@@ -1,8 +1,8 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require('prism-react-renderer/themes/github')
+const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -25,7 +25,8 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl:
+            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
@@ -52,7 +53,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'Taro/如何参与大型开源项目-Taro 共建',
+            docId: '2021-12-20-如何参与大型开源项目-Taro 共建',
             position: 'left',
             label: '博客',
           },
@@ -71,7 +72,7 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                to: '/docs/Taro/如何参与大型开源项目-Taro 共建',
+                to: '/docs/2021-12-20-如何参与大型开源项目-Taro 共建',
               },
             ],
           },
@@ -109,6 +110,6 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
-};
+}
 
-module.exports = config;
+module.exports = config

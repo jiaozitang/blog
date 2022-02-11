@@ -1,4 +1,4 @@
-原文：https://www.michaelagreiler.com/code-review-checklist-2/
+原文：[https://www.michaelagreiler.com/code-review-checklist-2/](https://www.michaelagreiler.com/code-review-checklist-2/)
 
 原文作者：[Dr. McKayla](https://www.michaelagreiler.com/)
 

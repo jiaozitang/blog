@@ -71,7 +71,9 @@ useEffect 可以接收两个参数，代码如下：
 useEffect(callback, dependencies)
 ```
 
-第一个为要执行的函数 callback，第二个是可选的依赖项数组 dependencies。其中依赖项是可选的，如果不指定，那么 callback 就会在每次函数组件执行完后都执行；如果指定了，那么只有依赖项中的值发生变化的时候，它才会执行。
+第一个参数是要执行的函数 callback，第二个参数是可选的依赖项数组 dependencies。
+
+其中依赖项是可选的，如果不指定，那么 callback 就会在每次函数组件执行完后都执行；如果指定了，那么只有依赖项中的值发生变化的时候，它才会执行。
 
 使用示例如下：
 
@@ -94,7 +96,7 @@ function Example() {
 
 以上代码通过 useEffect 实现了当依赖项 count 更新时，执行副作用函数，并通过返回回调函数清除上一次的执行结果。
 
-另外，useEffect 让我们能够在下面四种时机去执行一个回调函数产生副作用：
+另外，useEffect 提供了四种执行副作用的时机：
 
 - **每次 render 后执行**：不提供第二个依赖项参数。比如 useEffect(() => {})；
 - **仅第一次 render 后执行**：提供一个空数组作为依赖项。比如 useEffect(() => {}, [])；
@@ -298,7 +300,9 @@ React 官方提供了 [react-use](https://github.com/streamich/react-use) 库，
 
 ## 六、小结
 
-本文从 Hooks 究竟是什么，为什么要使用 Hooks，React 提供了哪些常用 Hooks，以及如何自定义 Hooks 4 个方面介绍了 React Hooks，相信大家对 React Hooks 已经有了大致的了解，希望能对你有所帮助，感谢阅读～
+本文从 Hooks 究竟是什么，为什么要使用 Hooks，React 提供了哪些常用 Hooks，以及如何自定义 Hooks 4 个方面介绍了 React Hooks，相信大家对 React Hooks 已经有了更加深入的理解。
+
+希望能对你有所帮助，感谢阅读～
 
 别忘了点个赞鼓励一下我哦，笔芯 ❤️
 

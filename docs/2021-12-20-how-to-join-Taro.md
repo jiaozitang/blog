@@ -1,3 +1,8 @@
+---
+title: 如何参与大型开源项目-Taro 共建
+date: 2021-12-20 19:11:14
+---
+
 ![](https://img12.360buyimg.com/ling/jfs/t1/96463/39/20942/268881/61ee05a4Eadf9afcb/cbcda37e2be5aae0.jpg)
 
 ## 一、背景

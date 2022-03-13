@@ -1,3 +1,8 @@
+---
+title: 【译】你知道 Code Review 应该检查哪些问题吗
+date: 2022-01-31 19:11:14
+---
+
 原文：[https://www.michaelagreiler.com/code-review-checklist-2/](https://www.michaelagreiler.com/code-review-checklist-2/)
 
 原文作者：[Dr. McKayla](https://www.michaelagreiler.com/)

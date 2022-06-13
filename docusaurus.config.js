@@ -16,6 +16,7 @@ const config = {
   organizationName: 'jiaozitang', // Usually your GitHub org/user name.
   projectName: 'jiaozitang.github.io', // Usually your repo name.
   deploymentBranch: 'master',
+  trailingSlash: false,
 
   presets: [
     [
